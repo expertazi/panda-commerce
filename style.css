@@ -1,4 +1,76 @@
-body{
-    margin:0;
-    padding: 0;
+/* Common Style Start From Here  */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Header Css  */
+.serach-btn-header {
+  margin-left: 4rem;
+}
+.bg-frist-slider-color {
+  background-color: #feeae9;
+}
+.col-slider-title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 84px;
+}
+.col-slider-p {
+  color: #4e4e4e;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 33px;
+}
+.col-slider-price {
+  color: #ff136f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 61px;
+  margin-bottom: 15px;
+}
+.col-slider-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.img-width-height {
+  width: 402px;
+  height: 378px;
+}
+
+/* Second Section Css Start From Here */
+.category-sec-rounded{
+    border-radius: 10px;
+}
+.category-sec-title {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+.category-sec-img{
+    width: 94px;
+height: 94px;
+}
+.category-sec-bg1{
+    background:  linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);;
+}
+.category-sec-bg2{
+    background:  linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.category-sec-bg3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+/* Media Quarie Start From Here  */
+
+/* Table Responsive Stylesheet  */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .serach-btn-header {
+    margin-left: 0;
+  }
 }
