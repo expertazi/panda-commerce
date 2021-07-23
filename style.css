@@ -4,13 +4,13 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-main{
-  background-color: #E5E5E5;
+main {
+  background-color: #e5e5e5;
   padding: 46px 0;
 }
 /* Header Css  */
 .serach-btn-header {
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 .bg-frist-slider-color {
   background-color: #feeae9;
@@ -73,7 +73,7 @@ main{
 
 /* Shoes Section / Third Section  */
 
-.shoes-custom-card{
+.shoes-custom-card {
   padding: 24px;
   background-color: #fff;
 }
@@ -117,42 +117,70 @@ main{
 }
 
 /* Footer Style Start From Here  */
-.custom-footer{
+.custom-footer {
   height: 400px;
-  background-color: #FFF2F1;
-
+  background-color: #fff2f1;
 }
-.sub-form input{
+.sub-form input {
   padding: 15px;
 }
-.sub-form button{
+.sub-form button {
   padding: 9px 48px;
   font-weight: 500;
-font-size: 18px;
-line-height: 36px;
-color: #fff;
-background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+  font-size: 18px;
+  line-height: 36px;
+  color: #fff;
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
 }
-.footer-title{
+.footer-title {
   font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 45px;
-color: #1F1F1F;
-text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1f1f1f;
+  text-align: center;
 }
-.footer-p{
+.footer-p {
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #707070;
-text-align: center;
-margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 /* Media Quarie Start From Here  */
 
+/* Phone Responsive Stylesheet  */
+
+@media only screen and (max-width: 767px) {
+  .w-50 {
+    display: none;
+  }
+  /* Carosel  */
+  .col-slider-title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .col-slider-p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .img-width-height {
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+  }
+  /* Subscribe form  */
+  .sub-form{
+    display:block !important;
+    text-align: center;
+  }
+  .sub-form input{
+    margin-bottom: 20px;
+  }
+}
 /* Table Responsive Stylesheet  */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .serach-btn-header {

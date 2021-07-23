@@ -34,59 +34,67 @@
   <body>
     <!-- Header Start  -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="" />
-          </a>
-
-          <div class="w-50">
-            <form class="d-flex w-100 serach-btn-header">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-            </form>
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+          <div class="container ">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="" />
+            </a>
+  
+            <div class="w-50">
+              <form class="d-flex w-100 serach-btn-header">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#Products"
+                    >Products</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#Shoes"
+                    >Shoes</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#Backpack"
+                    >Backpack</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#contact"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Products</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Contact Us</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </nav>
+   
+    
 
       <!-- Carosel Slider Start From Here  -->
 
@@ -187,7 +195,7 @@
           </button>
         </div>
       </div>
-      <div class="container mb-5">
+      <div id="Products" class="container mb-5">
         <div class="row g-4">
           <div class="col-lg-4 ">
             <div class="p-3 border category-sec-rounded category-sec-bg1 d-flex align-items-center justify-content-evenly">
@@ -216,7 +224,7 @@
      
         <!-- Categorys Sention End From Here -->
         <!-- Shoes Category Start From Here -->
-        <section class="container mb-5">
+        <section id="Shoes" class="container mb-5">
           <div class="shoes-content d-flex justify-content-between mb-4">
             <h2>Shoes</h2>
             <a class="text-decoration-none" href="">See All</a>
@@ -268,7 +276,7 @@
         </section>
           <!-- Shoes Category End  -->
             <!-- Backpack Section Start From Here -->
-            <section class="container custom-sec mb-5">
+            <section id="Backpack" class="container custom-sec mb-5">
               <div class="shoes-content d-flex justify-content-between mb-4">
                 <h2>Backpack</h2>
                 <a class="text-decoration-none" href="">See All</a>
@@ -320,7 +328,7 @@
             </section>
     </main>
     <footer>
-      <section class="container rounded-3 my-5 custom-footer d-flex justify-content-center align-items-center">
+      <section id="contact" class="container rounded-3 my-5 custom-footer d-flex justify-content-center align-items-center">
        <div>
         <h1 class="footer-title">LET'S STAY IN TOUCH</h1>
         <p class=" footer-p ">Get updates on sales specials and more</p>
