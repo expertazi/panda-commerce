@@ -4,6 +4,10 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+main{
+  background-color: #E5E5E5;
+  padding: 46px 0;
+}
 /* Header Css  */
 .serach-btn-header {
   margin-left: 4rem;
@@ -43,8 +47,8 @@ body {
 }
 
 /* Second Section Css Start From Here */
-.category-sec-rounded{
-    border-radius: 10px;
+.category-sec-rounded {
+  border-radius: 10px;
 }
 .category-sec-title {
   color: #fff;
@@ -53,19 +57,100 @@ body {
   font-size: 36px;
   line-height: 54px;
 }
-.category-sec-img{
-    width: 94px;
-height: 94px;
+.category-sec-img {
+  width: 94px;
+  height: 94px;
 }
-.category-sec-bg1{
-    background:  linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);;
+.category-sec-bg1 {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
 }
-.category-sec-bg2{
-    background:  linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+.category-sec-bg2 {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
 }
-.category-sec-bg3{
-    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+.category-sec-bg3 {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
 }
+
+/* Shoes Section / Third Section  */
+
+.shoes-custom-card{
+  padding: 24px;
+  background-color: #fff;
+}
+.shoes-item-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f1f;
+  margin-bottom: 16px;
+}
+.shoes-item-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #4e4e4e;
+  margin-bottom: 16px;
+}
+.shoes-item-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+  margin-bottom: 16px;
+}
+.shoes-item-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 168px;
+  height: 50px;
+  padding: 14px 20px;
+  background: #000000;
+  border-radius: 6px;
+}
+.shoes-custom-border-radius {
+  border-radius: 20px !important;
+}
+
+/* Footer Style Start From Here  */
+.custom-footer{
+  height: 400px;
+  background-color: #FFF2F1;
+
+}
+.sub-form input{
+  padding: 15px;
+}
+.sub-form button{
+  padding: 9px 48px;
+  font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+color: #fff;
+background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+}
+.footer-title{
+  font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #1F1F1F;
+text-align: center;
+}
+.footer-p{
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #707070;
+text-align: center;
+margin-bottom: 16px;
+}
+
 /* Media Quarie Start From Here  */
 
 /* Table Responsive Stylesheet  */
